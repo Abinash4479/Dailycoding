@@ -1,0 +1,16 @@
+import java.util.*;
+class CGPA_calculation
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter marks for subject1:");
+        float a = sc.nextFloat();
+        System.out.println("Enter marks for subject2:");
+        float b = sc.nextFloat();
+         System.out.println("Enter marks for subject3:");
+       float c = sc.nextFloat();
+       float d=(a+b+c)/30;
+       System.out.println("CGPA of all the three subjects are="+d);
+    }
+}
