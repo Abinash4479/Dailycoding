@@ -1,0 +1,9 @@
+class string_lowercase
+{
+    public static void main(String args[])
+    {
+        String name ="IloveJava";
+        name=name.toLowerCase();
+        System.out.println(name);
+    }
+}
