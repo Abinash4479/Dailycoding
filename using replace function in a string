@@ -1,0 +1,9 @@
+class replace_name
+{
+    public static void main(String args[])
+    {
+        String letter="Dear <|name|>,Thanks a lot";
+        letter=letter.replace("<|name|>","Java");
+        System.out.println(letter);
+    }
+}
