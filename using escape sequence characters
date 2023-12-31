@@ -1,0 +1,8 @@
+class escape_sequence_character
+{
+    public static void main(String args[])
+    {
+        String letter="Dear Java,\n\t you are excellent";
+        System.out.println(letter);
+    }
+}
