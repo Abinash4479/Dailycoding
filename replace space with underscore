@@ -1,0 +1,9 @@
+class space_underscore
+{
+    public static void main(String args[])
+    {
+        String name="Ilove Java";
+        name =name.replace(' ','_');
+        System.out.println(name);
+    }
+}
