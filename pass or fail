@@ -1,0 +1,25 @@
+import java.util.*;
+class pass_fail
+{
+    public static void main(String args[])
+    {
+        Scanner sc =new Scanner(System.in);
+        byte a1,a2,a3;
+        System.out.println("Enter marks for maths:");
+        a1=sc.nextByte();
+        System.out.println("Enter marks for maths:");
+        a2=sc.nextByte();
+        System.out.println("Enter marks for maths:");
+        a3=sc.nextByte();
+        float avg=(a1+a2+a3)/3.0f;
+        if(avg>=40 && a1>=33 && a2>=33 && a3>=33)
+        {
+            System.out.println("congratulations! passed");
+        }
+        else{
+            System.out.println("Failed");
+        }
+    }
+}
+        
+        
