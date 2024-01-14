@@ -1,0 +1,29 @@
+class array_presence
+{
+    public static void main(String args[])
+    {
+        int [] number={1,2,3,4,5};
+        int num =6;
+       boolean isInArray=false;
+        for(int element:number)
+        {
+            if(num==element)
+            {
+                isInArray=true;
+                break;
+            }
+        }
+        if(isInArray)
+        {
+            System.out.println("The value is present");
+        }
+        else
+        {
+            System.out.println("The value is not present");
+        }
+    }
+}
+            
+            
+            
+        
