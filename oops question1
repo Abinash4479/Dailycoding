@@ -1,0 +1,24 @@
+class Employee {
+    int salary;
+    String name;
+
+    int getSalary() {
+        return salary;
+    }
+
+    String getName() {
+        return name;
+    }
+
+    void setName(String n) {
+        name = n;
+    }
+
+    public static void main(String args[]) {
+        Employee abinash = new Employee();
+        abinash.setName("pati");
+        abinash.salary=150;
+        System.out.println(abinash.getSalary());
+        System.out.println(abinash.getName());
+    }
+}
