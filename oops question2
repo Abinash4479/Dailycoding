@@ -1,0 +1,24 @@
+class cell_phone
+{
+    void ringing()
+    {
+        System.out.println("Ringing....");
+    }
+    void vibrating()
+    {
+        System.out.println("Vibrating...");
+    }
+    void callFriend()
+    {
+        System.out.println("Calling mukul...");
+    }
+    public static void main(String args[])
+    {
+    cell_phone abi=new cell_phone();
+    abi.callFriend();
+    abi.vibrating();
+    abi.ringing();
+}
+}
+
+    
