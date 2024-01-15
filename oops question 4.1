@@ -1,0 +1,22 @@
+class circle
+{
+    double pie=3.14;
+    double radius;
+    double area()
+    {
+        return (pie*radius*radius);
+    }
+    double perimeter()
+    {
+        return (2*pie*radius);
+    }
+    public static void main(String args[])
+    {
+        circle obj=new circle();
+        obj.radius=2;
+        System.out.println(obj.area());
+         System.out.println(obj.perimeter());
+        }
+    }
+        
+        
