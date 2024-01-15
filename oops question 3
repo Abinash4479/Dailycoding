@@ -1,0 +1,19 @@
+class square
+{
+    int side;
+    int area()
+    {
+        return side*side;
+    }
+    int perimeter()
+    {
+        return 4*side;
+    }
+public static void main(String args[])
+{
+    square sq=new square();
+    sq.side=4;
+    System.out.println(sq.area());
+    System.out.println(sq.perimeter());
+}
+    }
