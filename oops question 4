@@ -1,0 +1,22 @@
+class rectangle
+{
+    int length;
+    int breadth;
+    int area()
+    {
+        return (length*breadth);
+    }
+    int perimeter()
+    {
+        return 2*(length+breadth);
+    }
+    public static void main(String args[])
+    {
+        rectangle rec=new rectangle();
+        rec.length=2;
+        rec.breadth=4;
+        System.out.println(rec.area());
+        System.out.println(rec.perimeter());
+    }
+}
+        
